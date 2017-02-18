@@ -1,0 +1,64 @@
+{
+  "version": 8,
+  "name": "Test",
+  "metadata": {
+    "mapbox:autocomposite": false,
+    "mapbox:type": "template",
+    "openmaptiles:version": "3.x",
+    "maputnik:renderer": "mbgljs",
+    "inspect": true
+  },
+  "center": [
+    7.1119,
+    50.7377
+  ],
+  "zoom": 11.5,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "tegola_osm": {
+      "type": "vector",
+      "url": "http://tegola.terranodo.io/capabilities/osm.json"
+    }
+  },
+  "sprite": "https://petersongis.github.io/Mobility/Spritesheets",
+  "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "maxzoom": 24,
+      "filter": [
+        "all"
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "background-color": "rgba(98, 117, 98, 1)"
+      }
+    },
+    {
+      "id": "building",
+      "type": "fill",
+      "source": "tegola_osm",
+      "source-layer": "buildings",
+      "minzoom": 0,
+      "maxzoom": 24,
+      "filter": [
+        "all"
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": "rgba(58, 58, 33, 0.3)",
+        "fill-outline-color": "rgba(105, 105, 80, 0.51)",
+        "fill-opacity": 1
+      }
+    }
+  ],
+  "created": "2017-01-04T21:12:33.904Z",
+  "id": "f0usgx9v5",
+  "owner": ""
+}

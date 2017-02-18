@@ -21,6 +21,7 @@
       "url": "http://tegola.terranodo.io/capabilities/osm.json"
     }
   },
+  "sprite": "https://petersongis.github.io/Mobility/Spritesheets",
   "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
