@@ -10,10 +10,10 @@
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
   "center": [
-    8.54806714892635,
-    47.37180823552663
+    7.1119,
+    50.7377
   ],
-  "zoom": 12.241790506353492,
+  "zoom": 11.5, 
   "bearing": 0,
   "pitch": 0,
   "sources": {
@@ -49,6 +49,9 @@
       "paint": {
         "fill-color": "rgba(105, 27, 88, 1)",
         "fill-opacity": 0.75
+      },
+      "layout": {
+        "visibility": "visible"
       }
     },
     {
