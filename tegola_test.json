@@ -17,9 +17,9 @@
   "bearing": 0,
   "pitch": 0,
   "sources": {
-    "tegola-cdn": {
+    "tegola": {
       "type": "vector",
-      "url": "http://tegola-cdn.terranodo.io/capabilities/osm.json"
+      "url": "http://tegola.terranodo.io/capabilities/osm.json"
     }
   },
   "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key={key}",
@@ -32,9 +32,9 @@
       }
     },
     {
-      "id": "tegola-cdn-roads",
+      "id": "tegola-roads",
       "type": "line",
-      "source": "tegola-cdn",
+      "source": "tegola",
       "source-layer": "roads",
       "layout": {},
       "paint": {
@@ -42,9 +42,9 @@
       }
     },
     {
-      "id": "tegola-cdn-buildings",
+      "id": "tegola-buildings",
       "type": "fill",
-      "source": "tegola-cdn",
+      "source": "tegola",
       "source-layer": "buildings",
       "paint": {
         "fill-color": "rgba(105, 27, 88, 1)",
@@ -52,9 +52,9 @@
       }
     },
     {
-      "id": "tegola-cdn-landusage",
+      "id": "tegola-landusage",
       "type": "fill",
-      "source": "tegola-cdn",
+      "source": "tegola",
       "source-layer": "landusages",
       "paint": {
         "fill-opacity": 0.7,
@@ -63,9 +63,9 @@
       }
     },
     {
-      "id": "tegola-cdn-landusage0",
+      "id": "tegola-landusage0",
       "type": "fill",
-      "source": "tegola-cdn",
+      "source": "tegola",
       "source-layer": "landusages_gen0"
     }
   ],
