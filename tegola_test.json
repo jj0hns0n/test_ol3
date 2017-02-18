@@ -1,13 +1,12 @@
 {
   "version": 8,
-  "name": "Klokantech Basic",
+  "name": "Tegola Test",
   "metadata": {
     "mapbox:autocomposite": false,
     "mapbox:type": "template",
     "maputnik:renderer": "mbgljs",
     "openmaptiles:version": "3.x",
-    "openmaptiles:mapbox:owner": "openmaptiles",
-    "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
+    "inspect": true
   },
   "center": [
     7.1119,
@@ -29,6 +28,9 @@
       "type": "background",
       "paint": {
         "background-color": "hsl(47, 26%, 88%)"
+      },
+      "layout": {
+        "visibility": "visible"
       }
     },
     {
@@ -36,9 +38,11 @@
       "type": "line",
       "source": "tegola",
       "source-layer": "roads",
-      "layout": {},
       "paint": {
         "line-color": "rgba(74, 46, 199, 1)"
+      },
+      "layout": {
+        "visibility": "visible"
       }
     },
     {
@@ -63,13 +67,10 @@
         "fill-opacity": 0.7,
         "fill-color": "rgba(52, 121, 66, 1)",
         "fill-outline-color": "rgba(220, 26, 26, 1)"
+      },
+      "layout": {
+        "visibility": "visible"
       }
-    },
-    {
-      "id": "tegola-landusage0",
-      "type": "fill",
-      "source": "tegola",
-      "source-layer": "landusages_gen0"
     }
   ],
   "id": "ciwf4zbsv007y2pmt2rspc1dc"
